@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="https://apicrow.com/adres/datalist/datalist.js" language="javascript"></script>
+
+</head>
+
+<body cz-shortcut-listen="true">
+    <div id="locaition">
+
+
+
+        <input id="iller" list="il_list" onchange="ilce_option_y(this.value,'ilceler')"
+            placeholder="Şehir Seçiniz"><datalist id="il_list">
+            <option id="1" value="ADANA"></option>
+            <option id="2" value="ADIYAMAN"></option>
+            <option id="3" value="AFYONKARAHİSAR"></option>
+            <option id="4" value="AĞRI"></option>
+            <option id="68" value="AKSARAY"></option>
+            <option id="5" value="AMASYA"></option>
+            <option id="6" value="ANKARA"></option>
+            <option id="7" value="ANTALYA"></option>
+            <option id="75" value="ARDAHAN"></option>
+            <option id="8" value="ARTVİN"></option>
+            <option id="9" value="AYDIN"></option>
+            <option id="10" value="BALIKESİR"></option>
+            <option id="74" value="BARTIN"></option>
+            <option id="72" value="BATMAN"></option>
+            <option id="69" value="BAYBURT"></option>
+            <option id="11" value="BİLECİK"></option>
+            <option id="12" value="BİNGÖL"></option>
+            <option id="13" value="BİTLİS"></option>
+            <option id="14" value="BOLU"></option>
+            <option id="15" value="BURDUR"></option>
+            <option id="16" value="BURSA"></option>
+            <option id="17" value="ÇANAKKALE"></option>
+            <option id="18" value="ÇANKIRI"></option>
+            <option id="19" value="ÇORUM"></option>
+            <option id="20" value="DENİZLİ"></option>
+            <option id="21" value="DİYARBAKIR"></option>
+            <option id="81" value="DÜZCE"></option>
+            <option id="22" value="EDİRNE"></option>
+            <option id="23" value="ELAZIĞ"></option>
+            <option id="24" value="ERZİNCAN"></option>
+            <option id="25" value="ERZURUM"></option>
+            <option id="26" value="ESKİŞEHİR"></option>
+            <option id="27" value="GAZİANTEP"></option>
+            <option id="28" value="GİRESUN"></option>
+            <option id="29" value="GÜMÜŞHANE"></option>
+            <option id="30" value="HAKKARİ"></option>
+            <option id="31" value="HATAY"></option>
+            <option id="76" value="IĞDIR"></option>
+            <option id="32" value="ISPARTA"></option>
+            <option id="34" value="İSTANBUL"></option>
+            <option id="35" value="İZMİR"></option>
+            <option id="46" value="KAHRAMANMARAŞ"></option>
+            <option id="78" value="KARABÜK"></option>
+            <option id="70" value="KARAMAN"></option>
+            <option id="36" value="KARS"></option>
+            <option id="37" value="KASTAMONU"></option>
+            <option id="38" value="KAYSERİ"></option>
+            <option id="71" value="KIRIKKALE"></option>
+            <option id="39" value="KIRKLARELİ"></option>
+            <option id="40" value="KIRŞEHİR"></option>
+            <option id="79" value="KİLİS"></option>
+            <option id="41" value="KOCAELİ"></option>
+            <option id="42" value="KONYA"></option>
+            <option id="43" value="KÜTAHYA"></option>
+            <option id="44" value="MALATYA"></option>
+            <option id="45" value="MANİSA"></option>
+            <option id="47" value="MARDİN"></option>
+            <option id="33" value="MERSİN"></option>
+            <option id="48" value="MUĞLA"></option>
+            <option id="49" value="MUŞ"></option>
+            <option id="50" value="NEVŞEHİR"></option>
+            <option id="51" value="NİĞDE"></option>
+            <option id="52" value="ORDU"></option>
+            <option id="80" value="OSMANİYE"></option>
+            <option id="53" value="RİZE"></option>
+            <option id="54" value="SAKARYA"></option>
+            <option id="55" value="SAMSUN"></option>
+            <option id="56" value="SİİRT"></option>
+            <option id="57" value="SİNOP"></option>
+            <option id="58" value="SİVAS"></option>
+            <option id="63" value="ŞANLIURFA"></option>
+            <option id="73" value="ŞIRNAK"></option>
+            <option id="59" value="TEKİRDAĞ"></option>
+            <option id="60" value="TOKAT"></option>
+            <option id="61" value="TRABZON"></option>
+            <option id="62" value="TUNCELİ"></option>
+            <option id="64" value="UŞAK"></option>
+            <option id="65" value="VAN"></option>
+            <option id="77" value="YALOVA"></option>
+            <option id="66" value="YOZGAT"></option>
+            <option id="67" value="ZONGULDAK"></option>
+        </datalist><br><br>
+        <input id="ilceler" list="ilce_list" onchange="mahalle_option_y(this.value,'mahalleler')"
+            placeholder="İlçe"><br><br>
+        <input id="mahalleler" list="mahalle_list" onchange="cadde_option_y(this.value,'caddeler')"
+            placeholder="Mahalle"><br><br>
+        <input id="caddeler" list="cadde_list" placeholder="Cadde/Sokak"><br><br>
+    </div>
+
+    <script>
+        datalistac({ input_il_id: "iller", input_ilce_id: "ilceler", input_mahalle_id: "mahalleler", input_cadde_id: "caddeler" });
+    </script>
+
+
+</body>
+
+</html>

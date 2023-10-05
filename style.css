@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#locaition {
+  display: flex;
+}
+#iller {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+}
+
+#iller:focus {
+  border-color: #ff8000;
+  box-shadow: 0 0 8px 0 #ff8000;
+  outline: none;
+}
+#ilceler {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+}
+#ilceler:focus {
+  border-color: #ff8000;
+  box-shadow: 0 0 8px 0 #ff8000;
+  outline: none;
+}
+#mahalleler {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+}
+#mahalleler:focus {
+  border-color: #ff8000;
+  box-shadow: 0 0 8px 0 #ff8000;
+  outline: none;
+}
+#caddeler {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+}
+#caddeler:focus {
+  border-color: #ff8000;
+  box-shadow: 0 0 8px 0 #ff8000;
+  outline: none;
+}
+
+#locaition input {
+  font-size: 14px;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/*----------------MOBILE DESIGN----------------*/
+
+@media only screen and (max-width: 960px) {
+  #locaition input {
+    font-size: 12px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+}

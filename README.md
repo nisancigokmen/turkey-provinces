@@ -1,9 +1,1 @@
 # turkey-provinces
-
-
-
-
-
-
-
-
